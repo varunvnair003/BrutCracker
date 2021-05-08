@@ -15,6 +15,8 @@ ______            _   _____                _
 BEFORE USING
 ================================================================================================================
 
+EXECUTE THE BrutCracker.py file
+
 1) This is a normal password cracking tool which uses SHA256(utf-8) encoding to decode the hashes to reveal the password.
 2) The 'common_passwords.txt' file contains over 10 million frequently used passwords. The script uses these passwords to 
 cross check with the provided hash to find the real password.
@@ -24,6 +26,7 @@ cross check with the provided hash to find the real password.
 5) You need to enter you "username" and "hash" into the "username_hashes_combi.txt" file to crack the password.
 6) The combination should be entered in the syntax:
                                 username:hash
+
 ================================================================================================================
 DISCLAIMER
 ================================================================================================================
